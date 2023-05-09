@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html
+	xmlns="http://www.w3.org/1999/xhtml"
+	lang="fr"
+	xml:lang="fr"
+	>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="generator" content="pandoc" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+		   		<title>Leiris-culture</title>
+				<link rel="stylesheet" href="css/default.css" />
+				<style>
+		* {margin:0; overflow-wrap: break-word}
+		body{font-size:100px;width:21cm;margin:10px;padding:0}@media print{@page{size:A4;margin:10px}body{margin:auto}}
+		body{margin-left:20px;margin-right:20px}@media print{@page{margin-right:20px!important}}
+		body{margin-top:20px;margin-bottom:20px}@media print{@page{margin-bottom:20px!important}}
+		
+		body{columns:2}
+		body{column-gap:30px}
+		
+		body{width:29.7cm!important}@media print{@page{size:A4 landscape!important;}}
+		
+		</style>
+		<script>
+			 let nPages = 1; 
+			let fontSize = 100;
+			let maxHeight = 774 * nPages;
+			let stepReduceFontSize = maxHeight * 2.5;
+			let ratio;
+			let trackReduction = 0;
+			let animation;
+			function adjustFontSize() {
+				let newFontSize = fontSize;
+				let start = null;
+				function update(timestamp) {
+					if (!start) start = timestamp;
+					let newContentHeight = document.body.clientHeight;
+					if (newContentHeight > maxHeight) {
+						ratio = newContentHeight / stepReduceFontSize;
+						newFontSize -= ratio;
+						document.body.style.fontSize = newFontSize + "px";
+						trackReduction = newFontSize;
+						start = timestamp;
+						animation = requestAnimationFrame(update);
+					} else {
+						if (newFontSize !== fontSize) {
+							fontSize = newFontSize;
+							document.body.style.fontSize = fontSize + "px";
+						}						
+						if (trackReduction == fontSize) {
+							window.removeEventListener("load", adjustFontSize)
+							window.removeEventListener("resize", adjustFontSize)
+							cancelAnimationFrame(animation);
+							window.print();
+						}
+					}
+				}
+				animation = requestAnimationFrame(update);
+			}
+			window.addEventListener("load", adjustFontSize);
+			window.addEventListener("resize", adjustFontSize);
+		</script>
+		
+		
+		<!--[if lt IE 9]>
+			<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		     <blockquote>
+<p><span style='white-space:nowrap'>«&thinsp;De</span> même qu’à l’idée
+de nature s’oppose celle de culture comme s’oppose au produit brut
+l’objet manufacturé ou bien à la terre vierge la terre domestiquée, à
+l’idée de “civilisation” s’est longtemps
+<span style='white-space:nowrap'>opposée&thinsp;—</span> et s’oppose
+encore maintenant dans l’esprit de la plupart des
+<span style='white-space:nowrap'>Occidentaux&thinsp;—</span> l’idée de
+“sauvagerie”. Jusqu’à une époque récente l’homme d’Occident […] s’est
+imaginé que la Civilisation se confondait avec sa civilisation, la
+Culture avec la sienne propre […] et n’a cessé de regarder les peuples
+exotiques […] soit comme des “sauvages” incultes et abandonnés à leurs
+instincts soit comme des “barbares” […]. L’homme à l’état de nature est,
+en vérité, une pure vue de l’esprit, car il se distingue de l’animal
+précisément en tant qu’il possède une culture, dont même les espèces que
+nous considérons comme les plus proches de la nôtre sont privées […].
+S’il n’est pas suffisant de dire de l’homme qu’il est un animal social
+(car des espèces très variées d’animaux vivent elles aussi en société)
+il peut être défini comme un être doué de culture, car, […] chez
+l’homme, […] il y a pour l’expérience […] possibilité de s’ériger
+<span style='white-space:nowrap'>en&thinsp;«&thinsp;culture&thinsp;»,</span>
+héritage social distinct de l’héritage biologique comme de l’acquis
+individuel […]. Loin d’être limitée à ce qu’on entend dans la
+conversation courante quand on dit d’une personne qu’elle
+<span style='white-space:nowrap'>est&thinsp;—</span> ou qu’elle n’est
+<span style='white-space:nowrap'>guère&thinsp;—</span> “cultivée” […],
+la culture doit donc être conçue comme comprenant, en vérité, tout cet
+ensemble plus ou moins cohérent d’idées, de mécanismes, d’institutions
+et d’objets qui
+<span style='white-space:nowrap'>orientent&thinsp;—</span> explicitement
+ou <span style='white-space:nowrap'>implicitement&thinsp;—</span> la
+conduite des membres d’un groupe donné. […] Variable selon le groupe, le
+sous-groupe et, dans une certaine mesure, la famille, douée d’une
+rigidité plus ou moins stricte et s’imposant de manière plus ou moins
+coercitive […], la culture représente, à l’échelon individuel, un
+facteur capital dans la constitution de la personnalité. […] La culture
+intervient […] à tous les niveaux de l’existence individuelle et se
+manifeste aussi bien dans la façon dont l’homme satisfait ses besoins
+physiques que dans sa vie intellectuelle et dans ses impératifs
+<span style='white-space:nowrap'>moraux.&thinsp;»</span></p>
+<p>Michel <code>LEIRIS</code>, <em>Race et civilisation</em> (1951)</p>
+</blockquote>   <blockquote>
+<p><span style='white-space:nowrap'>«&thinsp;De</span> même qu’à l’idée
+de nature s’oppose celle de culture comme s’oppose au produit brut
+l’objet manufacturé ou bien à la terre vierge la terre domestiquée, à
+l’idée de “civilisation” s’est longtemps
+<span style='white-space:nowrap'>opposée&thinsp;—</span> et s’oppose
+encore maintenant dans l’esprit de la plupart des
+<span style='white-space:nowrap'>Occidentaux&thinsp;—</span> l’idée de
+“sauvagerie”. Jusqu’à une époque récente l’homme d’Occident […] s’est
+imaginé que la Civilisation se confondait avec sa civilisation, la
+Culture avec la sienne propre […] et n’a cessé de regarder les peuples
+exotiques […] soit comme des “sauvages” incultes et abandonnés à leurs
+instincts soit comme des “barbares” […]. L’homme à l’état de nature est,
+en vérité, une pure vue de l’esprit, car il se distingue de l’animal
+précisément en tant qu’il possède une culture, dont même les espèces que
+nous considérons comme les plus proches de la nôtre sont privées […].
+S’il n’est pas suffisant de dire de l’homme qu’il est un animal social
+(car des espèces très variées d’animaux vivent elles aussi en société)
+il peut être défini comme un être doué de culture, car, […] chez
+l’homme, […] il y a pour l’expérience […] possibilité de s’ériger
+<span style='white-space:nowrap'>en&thinsp;«&thinsp;culture&thinsp;»,</span>
+héritage social distinct de l’héritage biologique comme de l’acquis
+individuel […]. Loin d’être limitée à ce qu’on entend dans la
+conversation courante quand on dit d’une personne qu’elle
+<span style='white-space:nowrap'>est&thinsp;—</span> ou qu’elle n’est
+<span style='white-space:nowrap'>guère&thinsp;—</span> “cultivée” […],
+la culture doit donc être conçue comme comprenant, en vérité, tout cet
+ensemble plus ou moins cohérent d’idées, de mécanismes, d’institutions
+et d’objets qui
+<span style='white-space:nowrap'>orientent&thinsp;—</span> explicitement
+ou <span style='white-space:nowrap'>implicitement&thinsp;—</span> la
+conduite des membres d’un groupe donné. […] Variable selon le groupe, le
+sous-groupe et, dans une certaine mesure, la famille, douée d’une
+rigidité plus ou moins stricte et s’imposant de manière plus ou moins
+coercitive […], la culture représente, à l’échelon individuel, un
+facteur capital dans la constitution de la personnalité. […] La culture
+intervient […] à tous les niveaux de l’existence individuelle et se
+manifeste aussi bien dans la façon dont l’homme satisfait ses besoins
+physiques que dans sa vie intellectuelle et dans ses impératifs
+<span style='white-space:nowrap'>moraux.&thinsp;»</span></p>
+<p>Michel <code>LEIRIS</code>, <em>Race et civilisation</em> (1951)</p>
+</blockquote>    
+	</body>
+</html>
