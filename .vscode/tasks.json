@@ -18,6 +18,11 @@
 			"linux": {"command": "brave ${file}"},
 			"osx": {"command": "open -a Brave\\ Browser ${file}"},
 			"group": "test"
+		},
+		{
+			"label": "Index - create" ,
+			"type": "shell",
+			"command": "pandoc -f markdown+lists_without_preceding_blankline README.md -o index.html -s --metadata title=\"Textes A4\" --css=https://cdn.jsdelivr.net/npm/@exampledev/new.css/new.min.css",
 		}
 	]
 }
