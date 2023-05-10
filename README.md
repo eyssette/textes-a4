@@ -1,5 +1,3 @@
-# Textes A4
-
 Des recueils de textes en A4 à imprimer, principalement sur des thématiques philosophiques.
 
 <!-- ## Philosophie - Terminales -->
@@ -19,11 +17,11 @@ Des recueils de textes en A4 à imprimer, principalement sur des thématiques ph
 
 #### Découverte du monde et pluralité des cultures
 
-La révolution scientifique :
+##### La révolution scientifique
 - [Exercice sur les conceptions de Koyré et Kuhn](https://eyssette.github.io/textes-a4/exercice-revolution-scientifique-Koyre-Kuhn.html)
 - [Exercice sur la distinction entre expérience et expérimentation](https://eyssette.github.io/textes-a4/exercice-revolution-scientifique-Jorland-experience.html)
 
-La pluralité des cultures :
+##### La pluralité des cultures
 - [Lévi-Strauss à propos de l'ethnocentrisme](https://eyssette.github.io/textes-a4/levi-strauss-ethnocentrisme.html)
 - [Leiris sur la notion de culture](https://eyssette.github.io/textes-a4/leiris-culture.html)
 - [Les différences culturelles sont-elles un obstacle à la cohésion sociale ?](https://eyssette.github.io/textes-a4/differences-culturelles-cohesion-sociale.html)
