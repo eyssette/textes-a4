@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html
+	xmlns="http://www.w3.org/1999/xhtml"
+	lang="fr"
+	xml:lang="fr"
+	>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="generator" content="pandoc" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+		   		<title>ethique-animale-differentes-approches</title>
+				<link rel="stylesheet" href="css/default.css" />
+				<style>
+		* {margin:0; overflow-wrap: break-word}
+		body{font-size:100px;width:21cm;margin:10px;padding:0}@media print{@page{size:A4;margin:10px}body{margin:auto}}
+		body{margin-left:10px;margin-right:10px}@media print{@page{margin-right:10px!important}}
+		body{margin-top:10px;margin-bottom:10px}@media print{@page{margin-bottom:10px!important}}
+		
+		body{columns:3}
+		body{column-gap:30px}
+		
+		body{width:29.7cm!important}@media print{@page{size:A4 landscape!important;}}
+		
+		</style>
+		<script>
+			 let nPages = 1; 
+			let fontSize = 100;
+			let maxHeight = 774 * nPages;
+			let stepReduceFontSize = maxHeight * 2.5;
+			let ratio;
+			let trackReduction = 0;
+			let animation;
+			function adjustFontSize() {
+				let newFontSize = fontSize;
+				let start = null;
+				function update(timestamp) {
+					if (!start) start = timestamp;
+					let newContentHeight = document.body.clientHeight;
+					if (newContentHeight > maxHeight) {
+						ratio = newContentHeight / stepReduceFontSize;
+						newFontSize -= ratio;
+						document.body.style.fontSize = newFontSize + "px";
+						trackReduction = newFontSize;
+						start = timestamp;
+						animation = requestAnimationFrame(update);
+					} else {
+						if (newFontSize !== fontSize) {
+							fontSize = newFontSize;
+							document.body.style.fontSize = fontSize + "px";
+						}						
+						if (trackReduction == fontSize) {
+							window.removeEventListener("load", adjustFontSize)
+							window.removeEventListener("resize", adjustFontSize)
+							cancelAnimationFrame(animation);
+							window.print();
+						}
+					}
+				}
+				animation = requestAnimationFrame(update);
+			}
+			window.addEventListener("load", adjustFontSize);
+			window.addEventListener("resize", adjustFontSize);
+		</script>
+		
+		
+		<!--[if lt IE 9]>
+			<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		    <h1 id="éthique-animale-les-différentes-approches">Éthique
+<span style='white-space:nowrap'>animale&thinsp;:</span> les différentes
+approches</h1>
+<h2
+id="rousseau-une-morale-de-la-sensibilité"><span style='white-space:nowrap'>Rousseau&thinsp;:</span>
+une morale de la sensibilité</h2>
+<p><span style='white-space:nowrap'>«&thinsp;Laissant</span> donc tous
+les livres scientifiques qui ne nous apprennent qu’à voir les hommes
+tels qu’ils se sont faits, et méditant sur les premières et plus simples
+opérations de l’âme humaine, j’y crois apercevoir deux principes
+antérieurs à la raison, dont l’un nous intéresse ardemment à notre
+bien-être et à la conservation de nous-mêmes, et l’autre nous inspire
+une répugnance naturelle à voir périr ou souffrir tout être sensible et
+principalement nos semblables. […] [L]es devoirs envers autrui ne lui
+sont pas uniquement dictés par les tardives leçons de la
+<span style='white-space:nowrap'>sagesse&thinsp;;</span> et tant [que
+l’homme] ne résistera point à l’impulsion intérieure de la
+commisération, il ne fera jamais du mal à un autre homme ni même à aucun
+être sensible, excepté dans le cas légitime où sa conservation se
+trouvant intéressée, il est obligé de se donner la préférence à
+lui-même. Par ce moyen, on termine aussi les anciennes disputes sur [le
+statut des animaux]. Car il est clair que, dépourvus de lumières et de
+liberté […] mais, tenant en quelque chose à notre nature par la
+sensibilité dont ils sont doués, on jugera qu’ils doivent aussi
+participer au droit naturel, et que l’homme est assujetti envers eux à
+quelque espèce de devoirs. Il semble, en effet, que si je suis obligé de
+ne faire aucun mal à mon semblable, c’est moins parce qu’il est un être
+raisonnable que parce qu’il est un être
+<span style='white-space:nowrap'>sensible&thinsp;;</span> qualité qui,
+étant commune à la bête et à l’homme, doit au moins donner à l’une le
+droit de n’être point maltraitée inutilement par
+<span style='white-space:nowrap'>l’autre.&thinsp;»</span> (Rousseau,
+<em>Discours sur l’origine et les fondements de l’inégalité parmi les
+hommes</em>)</p>
+<h2
+id="peter-singer-une-approche-utilitariste-fondée-sur-le-calcul-des-conséquences">Peter
+<span style='white-space:nowrap'>Singer&thinsp;:</span> une approche
+utilitariste fondée sur le calcul des conséquences</h2>
+<p><span style='white-space:nowrap'>«&thinsp;L’utilitarisme</span>
+assimile le bien au bonheur ou à la satisfaction des préférences. De ce
+fait, l’ensemble des êtres susceptibles d’éprouver des plaisirs ou
+d’avoir des préférences sont inclus dans le cercle de la considération
+morale. Dans la recherche de la décision optimale, on doit accorder le
+même poids aux plaisirs ou aux préférences d’intensité comparable. Les
+caractéristiques présentées par ailleurs par les individus qui les
+éprouvent n’ont aucun rôle à jouer. L’utilitarisme est ainsi par
+construction une doctrine non
+<span style='white-space:nowrap'>spéciste&thinsp;:</span> le fait que
+des êtres sentants appartiennent ou non à l’espèce humaine est un
+critère qui, en soi, n’a aucune pertinence éthique.<br />
+Jusqu’à quel point cela a-t-il été mis en avant par les défenseurs de
+cette <span style='white-space:nowrap'>philosophie&thinsp;?</span>
+L’inclusion des animaux parmi les patients moraux est explicite chez les
+grandes figures de l’utilitarisme classique. […] Tant chez Bentham que
+chez Mill, on trouve l’affirmation selon laquelle ce n’est que par une
+discrimination injuste que les intérêts des animaux sont jugés moins
+importants que ceux des humains […]. Mais outre que chez eux des
+réflexions remarquables en côtoient d’autres qui en limitent la portée,
+on ne trouve pas chez les fondateurs de traitement systématique du
+sujet, ni de véritable programme de réforme […]. On comprend par
+différence pourquoi, sur la question animale, Singer est un auteur plus
+marquant que ses prédécesseurs.<br />
+C’est la première fois qu’un philosophe utilitariste consacre plusieurs
+livres et articles à la question animale. […] Singer mène un travail
+d’enquête approfondi […] La moitié de <em>La libération animale</em> se
+situe sur le plan descriptif. Chiffres, images et explications à
+l’appui, Singer donne à voir les mutilations, l’enfermement, la détresse
+physique et psychologique extrême, subis par les animaux de laboratoire
+ou de ferme. […] Le projecteur est mis sur les utilisations les plus
+répandues des animaux, à commencer par la première d’entre
+<span style='white-space:nowrap'>elles&thinsp;:</span> leur exploitation
+comme source de viande, lait ou
+<span style='white-space:nowrap'>œufs.&thinsp;»</span> (Estiva Reus,
+“Utilitarisme et anti-utilitarisme dans l’éthique contemporaine de
+l’égalité animale”, <em>Cahiers antispécistes</em> n°32)</p>
+<p><u><span style='white-space:nowrap'>Complément&thinsp;:</span></u>
+“Une approche conséquentialiste de la consommation de viande”</p>
+<h2 id="tom-regan-une-théorie-des-droits-des-animaux">Tom
+<span style='white-space:nowrap'>Regan&thinsp;:</span> une théorie des
+droits des animaux</h2>
+<p><span style='white-space:nowrap'>«&thinsp;«&thinsp;Tom</span> Regan,
+professeur américain de philosophie morale, s’est rapidement imposé
+comme la principale alternative déontologiste à l’utilitarisme de Singer
+et, par voie de conséquence, comme le principal théoricien des droits de
+l’animal et de l’abolitionnisme. Son œuvre majeure, <em>The Case for
+Animal Rights</em> (1983), livre ambitieux, précis et parfois indigeste,
+reste l’un des grands classiques de l’éthique animale. Le point de
+départ de Regan est la dénonciation de l’insuffisance du réformisme,
+c’est-à-dire du modérantisme qui ne vise que l’amélioration du bien-être
+animal. Certains abolitionnistes sont patients et considèrent que le
+réformisme est une première étape acceptable, autrement dit que le grand
+public n’abolira pas du jour au lendemain l’exploitation animale mais
+qu’on peut l’y conduire de fil en aiguille en commençant par améliorer
+le sort des animaux. Ce n’est pas l’avis de
+<span style='white-space:nowrap'>Regan&thinsp;:&thinsp;«&thinsp;Les</span>
+pratiques qui ont été abolies, comme l’esclavage, n’ont pas d’abord été
+<span style='white-space:nowrap'>réformées.&thinsp;»</span> Il est selon
+lui impossible de changer des institutions injustes en se contentant de
+les améliorer. C’est même un effet
+<span style='white-space:nowrap'>pervers&thinsp;:&thinsp;«&thinsp;Quand</span>
+vous réformez l’injustice, mon opinion est que vous la
+<span style='white-space:nowrap'>prolongez.&thinsp;»</span> […]<br />
+Le désaccord entre Singer et Regan est tout simplement qu’ils n’ont pas
+les mêmes <span style='white-space:nowrap'>buts&thinsp;:</span> l’un
+veut maximiser le bien-être des animaux, l’autre veut abolir leur
+exploitation car il leur attribue des droits moraux. Attribuer des
+droits moraux à un être implique de reconnaître qu’il a une valeur
+inhérente. Selon quel
+<span style='white-space:nowrap'>critère&thinsp;?</span> Regan, comme
+Singer et pour la même raison que lui, exclut les critères intellectuels
+traditionnels que sont la rationalité, le langage articulé, la
+conscience et le reste, car ils sont absents des humains marginaux
+auxquels on reconnaît pourtant cette valeur inhérente. Par contre, là où
+Singer introduit le critère de la souffrance, Regan parle plutôt du fait
+d’être sujet-d’une-vie […]. Singer
+<span style='white-space:nowrap'>dit&thinsp;:</span> avoir une
+considération morale pour un être implique de reconnaître qu’il a des
+intérêts selon le critère de la sensibilité. Regan
+<span style='white-space:nowrap'>dit&thinsp;:</span> attribuer des
+droits moraux à un être implique de reconnaître qu’il a une valeur
+inhérente selon le critère du fait d’être sujet-d’une-vie.<br />
+La valeur inhérente implique le droit à un traitement
+<span style='white-space:nowrap'>respectueux&thinsp;:&thinsp;«&thinsp;Nous</span>
+devons traiter les individus qui ont une valeur inhérente d’une manière
+qui respecte leur valeur
+<span style='white-space:nowrap'>inhérente.&thinsp;»&thinsp;»</span>
+(Jean-Baptiste Jeangène Vilmer, <em>Éthique animale</em>, PUF, 2008,
+p.79-81)</p>
+<p><u><span style='white-space:nowrap'>Complément&thinsp;:</span></u>
+texte de Valéry Giroux</p>  
+	</body>
+</html>

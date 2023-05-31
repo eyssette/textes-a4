@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html
+	xmlns="http://www.w3.org/1999/xhtml"
+	lang="fr"
+	xml:lang="fr"
+	>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="generator" content="pandoc" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+		   		<title>animaux-Aquin-Descartes</title>
+				<link rel="stylesheet" href="css/default.css" />
+				<style>
+		* {margin:0; overflow-wrap: break-word}
+		body{font-size:100px;width:21cm;margin:10px;padding:0}@media print{@page{size:A4;margin:10px}body{margin:auto}}
+		body{margin-left:10px;margin-right:10px}@media print{@page{margin-right:10px!important}}
+		body{margin-top:10px;margin-bottom:10px}@media print{@page{margin-bottom:10px!important}}
+		
+		body{columns:3}
+		body{column-gap:20px}
+		
+		body{width:29.7cm!important}@media print{@page{size:A4 landscape!important;}}
+		
+		</style>
+		<script>
+			 let nPages = 1; 
+			let fontSize = 100;
+			let maxHeight = 774 * nPages;
+			let stepReduceFontSize = maxHeight * 2.5;
+			let ratio;
+			let trackReduction = 0;
+			let animation;
+			function adjustFontSize() {
+				let newFontSize = fontSize;
+				let start = null;
+				function update(timestamp) {
+					if (!start) start = timestamp;
+					let newContentHeight = document.body.clientHeight;
+					if (newContentHeight > maxHeight) {
+						ratio = newContentHeight / stepReduceFontSize;
+						newFontSize -= ratio;
+						document.body.style.fontSize = newFontSize + "px";
+						trackReduction = newFontSize;
+						start = timestamp;
+						animation = requestAnimationFrame(update);
+					} else {
+						if (newFontSize !== fontSize) {
+							fontSize = newFontSize;
+							document.body.style.fontSize = fontSize + "px";
+						}						
+						if (trackReduction == fontSize) {
+							window.removeEventListener("load", adjustFontSize)
+							window.removeEventListener("resize", adjustFontSize)
+							cancelAnimationFrame(animation);
+							window.print();
+						}
+					}
+				}
+				animation = requestAnimationFrame(update);
+			}
+			window.addEventListener("load", adjustFontSize);
+			window.addEventListener("resize", adjustFontSize);
+		</script>
+		
+		
+		<!--[if lt IE 9]>
+			<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		     <h2 id="thomas-daquin">Thomas d’Aquin</h2>
+<p><span style='white-space:nowrap'>«&thinsp;Pour</span> établir la
+preuve de la liberté, considérons d’abord que certains êtres agissent
+sans aucun jugement, comme la pierre qui tombe vers le bas, et tous les
+êtres qui n’ont pas la
+<span style='white-space:nowrap'>connaissance.&thinsp;─</span> D’autres
+êtres agissent d’après un certain jugement, mais qui n’est pas libre.
+Ainsi les animaux telle la brebis qui, voyant le loup, juge qu’il faut
+le <span style='white-space:nowrap'>fuir&thinsp;;</span> c’est un
+jugement naturel, non pas libre, car elle ne juge pas en rassemblant des
+données, mais par un instinct naturel. Et il en va de même pour tous les
+jugements des <span style='white-space:nowrap'>animaux.&thinsp;─</span>
+Mais l’homme agit d’après un
+<span style='white-space:nowrap'>jugement&thinsp;;</span> car, par sa
+faculté de connaissance, il juge qu’il faut fuir quelque chose ou le
+poursuivre. Cependant, ce jugement n’est pas l’effet d’un instinct
+naturel s’appliquant à une action particulière, mais d’un rapprochement
+de données opéré par la
+<span style='white-space:nowrap'>raison&thinsp;;</span> c’est pourquoi
+l’homme agit selon un jugement libre, car il a la faculté de se porter à
+divers <span style='white-space:nowrap'>objets.&thinsp;»</span>
+(<em>Somme théologique</em>, I, question 83, réponse)</p>
+<h2 id="descartes">Descartes</h2>
+<p><span style='white-space:nowrap'>«&thinsp;Je</span> regarde comme une
+chose démontrée qu’on ne saurait prouver qu’il y ait des pensées dans
+les bêtes […]. Il est plus probable de faire mouvoir comme des machines
+les vers de terre, les moucherons, les chenilles et le reste des
+animaux, que de leur donner une âme immortelle.<br>Premièrement parce
+qu’il est certain que, dans les corps des animaux, ainsi que dans les
+nôtres, il y a des os, des nerfs, des muscles, du sang […] et autres
+organes disposés de telle sorte qu’ils peuvent produire par eux-mêmes,
+sans le secours d’aucune pensée, tous les mouvements que nous observons
+dans les animaux, ce qui paraît dans les mouvements convulsifs, lorsque,
+malgré l’âme même, la machine du corps se meut souvent avec plus de
+violence et en plus de différentes manières qu’il n’a coutume de le
+faire avec les secours de la volonté […].<br>La principale raison, selon
+moi, qui peut nous persuader que les bêtes sont privées de raison, est
+que, bien que parmi celles d’une même espèce les unes soient plus
+parfaites que les autres, comme dans les hommes, ce qui se remarque
+particulièrement dans les chevaux et dans les chiens, dont les uns ont
+plus de dispositions que les autres à retenir ce qu’on leur apprend, et
+bien qu’elles nous fassent toutes connaître clairement leurs mouvements
+naturels de colère, de crainte, de faim, et d’autres semblables, ou par
+la voix, ou par d’autres mouvements du corps, on n’a point cependant
+encore observé qu’aucun animal fût parvenu à ce degré de perfection
+d’user d’un véritable langage, c’est-à-dire qui nous marquât par la
+voix, ou par d’autres signes, quelque chose qui pût se rapporter plutôt
+à la seule pensée qu’à un mouvement naturel. Car la parole est l’unique
+signe et la seule marque assurée de la pensée cachée et renfermée dans
+les corps; or tous les hommes les plus stupides et les plus insensés,
+ceux mêmes qui sont privés des organes de la langue et de la parole, se
+servent de signes, au lieu que les bêtes ne font rien de semblable, ce
+que l’on peut prendre pour la véritable différence entre l’homme et la
+<span style='white-space:nowrap'>bête&thinsp;»</span> (<em>Lettre à
+Morus</em>, 5 février 1649)</p>   <h2 id="thomas-daquin">Thomas
+d’Aquin</h2>
+<p><span style='white-space:nowrap'>«&thinsp;Pour</span> établir la
+preuve de la liberté, considérons d’abord que certains êtres agissent
+sans aucun jugement, comme la pierre qui tombe vers le bas, et tous les
+êtres qui n’ont pas la
+<span style='white-space:nowrap'>connaissance.&thinsp;─</span> D’autres
+êtres agissent d’après un certain jugement, mais qui n’est pas libre.
+Ainsi les animaux telle la brebis qui, voyant le loup, juge qu’il faut
+le <span style='white-space:nowrap'>fuir&thinsp;;</span> c’est un
+jugement naturel, non pas libre, car elle ne juge pas en rassemblant des
+données, mais par un instinct naturel. Et il en va de même pour tous les
+jugements des <span style='white-space:nowrap'>animaux.&thinsp;─</span>
+Mais l’homme agit d’après un
+<span style='white-space:nowrap'>jugement&thinsp;;</span> car, par sa
+faculté de connaissance, il juge qu’il faut fuir quelque chose ou le
+poursuivre. Cependant, ce jugement n’est pas l’effet d’un instinct
+naturel s’appliquant à une action particulière, mais d’un rapprochement
+de données opéré par la
+<span style='white-space:nowrap'>raison&thinsp;;</span> c’est pourquoi
+l’homme agit selon un jugement libre, car il a la faculté de se porter à
+divers <span style='white-space:nowrap'>objets.&thinsp;»</span>
+(<em>Somme théologique</em>, I, question 83, réponse)</p>
+<h2 id="descartes">Descartes</h2>
+<p><span style='white-space:nowrap'>«&thinsp;Je</span> regarde comme une
+chose démontrée qu’on ne saurait prouver qu’il y ait des pensées dans
+les bêtes […]. Il est plus probable de faire mouvoir comme des machines
+les vers de terre, les moucherons, les chenilles et le reste des
+animaux, que de leur donner une âme immortelle.<br>Premièrement parce
+qu’il est certain que, dans les corps des animaux, ainsi que dans les
+nôtres, il y a des os, des nerfs, des muscles, du sang […] et autres
+organes disposés de telle sorte qu’ils peuvent produire par eux-mêmes,
+sans le secours d’aucune pensée, tous les mouvements que nous observons
+dans les animaux, ce qui paraît dans les mouvements convulsifs, lorsque,
+malgré l’âme même, la machine du corps se meut souvent avec plus de
+violence et en plus de différentes manières qu’il n’a coutume de le
+faire avec les secours de la volonté […].<br>La principale raison, selon
+moi, qui peut nous persuader que les bêtes sont privées de raison, est
+que, bien que parmi celles d’une même espèce les unes soient plus
+parfaites que les autres, comme dans les hommes, ce qui se remarque
+particulièrement dans les chevaux et dans les chiens, dont les uns ont
+plus de dispositions que les autres à retenir ce qu’on leur apprend, et
+bien qu’elles nous fassent toutes connaître clairement leurs mouvements
+naturels de colère, de crainte, de faim, et d’autres semblables, ou par
+la voix, ou par d’autres mouvements du corps, on n’a point cependant
+encore observé qu’aucun animal fût parvenu à ce degré de perfection
+d’user d’un véritable langage, c’est-à-dire qui nous marquât par la
+voix, ou par d’autres signes, quelque chose qui pût se rapporter plutôt
+à la seule pensée qu’à un mouvement naturel. Car la parole est l’unique
+signe et la seule marque assurée de la pensée cachée et renfermée dans
+les corps; or tous les hommes les plus stupides et les plus insensés,
+ceux mêmes qui sont privés des organes de la langue et de la parole, se
+servent de signes, au lieu que les bêtes ne font rien de semblable, ce
+que l’on peut prendre pour la véritable différence entre l’homme et la
+<span style='white-space:nowrap'>bête&thinsp;»</span> (<em>Lettre à
+Morus</em>, 5 février 1649)</p>   <h2 id="thomas-daquin">Thomas
+d’Aquin</h2>
+<p><span style='white-space:nowrap'>«&thinsp;Pour</span> établir la
+preuve de la liberté, considérons d’abord que certains êtres agissent
+sans aucun jugement, comme la pierre qui tombe vers le bas, et tous les
+êtres qui n’ont pas la
+<span style='white-space:nowrap'>connaissance.&thinsp;─</span> D’autres
+êtres agissent d’après un certain jugement, mais qui n’est pas libre.
+Ainsi les animaux telle la brebis qui, voyant le loup, juge qu’il faut
+le <span style='white-space:nowrap'>fuir&thinsp;;</span> c’est un
+jugement naturel, non pas libre, car elle ne juge pas en rassemblant des
+données, mais par un instinct naturel. Et il en va de même pour tous les
+jugements des <span style='white-space:nowrap'>animaux.&thinsp;─</span>
+Mais l’homme agit d’après un
+<span style='white-space:nowrap'>jugement&thinsp;;</span> car, par sa
+faculté de connaissance, il juge qu’il faut fuir quelque chose ou le
+poursuivre. Cependant, ce jugement n’est pas l’effet d’un instinct
+naturel s’appliquant à une action particulière, mais d’un rapprochement
+de données opéré par la
+<span style='white-space:nowrap'>raison&thinsp;;</span> c’est pourquoi
+l’homme agit selon un jugement libre, car il a la faculté de se porter à
+divers <span style='white-space:nowrap'>objets.&thinsp;»</span>
+(<em>Somme théologique</em>, I, question 83, réponse)</p>
+<h2 id="descartes">Descartes</h2>
+<p><span style='white-space:nowrap'>«&thinsp;Je</span> regarde comme une
+chose démontrée qu’on ne saurait prouver qu’il y ait des pensées dans
+les bêtes […]. Il est plus probable de faire mouvoir comme des machines
+les vers de terre, les moucherons, les chenilles et le reste des
+animaux, que de leur donner une âme immortelle.<br>Premièrement parce
+qu’il est certain que, dans les corps des animaux, ainsi que dans les
+nôtres, il y a des os, des nerfs, des muscles, du sang […] et autres
+organes disposés de telle sorte qu’ils peuvent produire par eux-mêmes,
+sans le secours d’aucune pensée, tous les mouvements que nous observons
+dans les animaux, ce qui paraît dans les mouvements convulsifs, lorsque,
+malgré l’âme même, la machine du corps se meut souvent avec plus de
+violence et en plus de différentes manières qu’il n’a coutume de le
+faire avec les secours de la volonté […].<br>La principale raison, selon
+moi, qui peut nous persuader que les bêtes sont privées de raison, est
+que, bien que parmi celles d’une même espèce les unes soient plus
+parfaites que les autres, comme dans les hommes, ce qui se remarque
+particulièrement dans les chevaux et dans les chiens, dont les uns ont
+plus de dispositions que les autres à retenir ce qu’on leur apprend, et
+bien qu’elles nous fassent toutes connaître clairement leurs mouvements
+naturels de colère, de crainte, de faim, et d’autres semblables, ou par
+la voix, ou par d’autres mouvements du corps, on n’a point cependant
+encore observé qu’aucun animal fût parvenu à ce degré de perfection
+d’user d’un véritable langage, c’est-à-dire qui nous marquât par la
+voix, ou par d’autres signes, quelque chose qui pût se rapporter plutôt
+à la seule pensée qu’à un mouvement naturel. Car la parole est l’unique
+signe et la seule marque assurée de la pensée cachée et renfermée dans
+les corps; or tous les hommes les plus stupides et les plus insensés,
+ceux mêmes qui sont privés des organes de la langue et de la parole, se
+servent de signes, au lieu que les bêtes ne font rien de semblable, ce
+que l’on peut prendre pour la véritable différence entre l’homme et la
+<span style='white-space:nowrap'>bête&thinsp;»</span> (<em>Lettre à
+Morus</em>, 5 février 1649)</p>    
+	</body>
+</html>
