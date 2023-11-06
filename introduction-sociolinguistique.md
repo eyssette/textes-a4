@@ -1,10 +1,10 @@
 ---
 pages: 1
-colonnes: 2
-copies: 2
-espacementColonnes: 60px
+colonnes: 3
+copies: 3
+espacementColonnes: 30px
 paysage: true
-mx: 30px
+mx: 10px
 my: 10px
 ---
 
