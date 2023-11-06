@@ -9,7 +9,7 @@ my: 10px
 maths: false
 ---
 
-# The Tripartite Soul and the Embodied Self: Plato's Key to Understanding Human Nature
+# The Tripartite Soul and the Embodied Self: <br>Plato's Key to Understanding Human Nature
 
 According to Plato, the need to attain mastery over the body is deeply rooted in his philosophy, particularly in his emphasis on the tripartite nature of the human soul. Plato believed that the human soul consisted of three parts: reason, spirit, and appetite. The body, in his view, was strongly associated with the appetite, representing our most primal desires and instincts. To achieve harmony and wisdom, Plato argued that one must allow reason, the highest part of the soul, to govern and guide the other two. For this to happen, mastery over the body and its desires was essential. Plato believed that indulging the physical appetites excessively could lead to irrational behavior, moral decay, and a life driven by base desires rather than higher ideals.
 

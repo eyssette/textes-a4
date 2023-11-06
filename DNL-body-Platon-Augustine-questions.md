@@ -9,6 +9,8 @@ my: 10px
 maths: false
 ---
 
+<style>h3:nth-of-type(1) {margin-top:0!important} h3:nth-of-type(3), h3:nth-of-type(7), h3:nth-of-type(11) {margin-top:2em!important}</style>
+
 ### The Tripartite Soul and the Embodied Self: Plato's Key to Understanding Human Nature
 
 1. What are the three main components in the allegory of the chariot, and what do they symbolize?
